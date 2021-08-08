@@ -1,5 +1,16 @@
 .Pokedex {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
+  color: white;
+  font-size: 2rem;
+  /* Glass */
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 .Pokedex-cards {
   display: flex;
@@ -8,9 +19,21 @@
 }
 
 .Pokedex-winner {
-  color: #4caf50;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: lime;
+  font-size: 4rem;
 }
 
 .Pokedex-loser {
-  color: #e91e63;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  color: red;
+  font-size: 4rem;
 }
